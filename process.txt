@@ -1,0 +1,4 @@
+get weather station as param from CLI
+fetch XML
+parse XML
+format table
