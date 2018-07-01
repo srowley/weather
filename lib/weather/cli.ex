@@ -2,7 +2,7 @@ defmodule Weather.CLI do
 
   import SweetXml
 
-  def run(argv) do
+  def main(argv) do
     parse_args(argv)
   end
 
