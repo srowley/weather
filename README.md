@@ -1,21 +1,24 @@
 # Weather
 
-**TODO: Add description**
+Command-line utility that prints specified NOAA weather measurements from a specified weather station
 
-## Installation
+**Usage**
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `weather` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:weather, "~> 0.1.0"}
-  ]
-end
+```shell
+$ weather KDSM temp_f wind_mph
+Measurement | Value
+------------+------
+temp_f      | 80.0 
+wind_mph    | 12.7 
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/weather](https://hexdocs.pm/weather).
+**TODO**
+
+* Add tests
+* Catch errors like:
+  * Invalid station
+  * Invalid measurement
+  * Error fetching NOAA data
+
+
 
