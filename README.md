@@ -14,7 +14,6 @@ wind_mph    | 12.7
 
 **TODO**
 
-* Add tests
 * Catch errors like:
   * Invalid station
   * Invalid measurement
